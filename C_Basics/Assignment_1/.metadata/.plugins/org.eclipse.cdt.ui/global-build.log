@@ -1,0 +1,65 @@
+12:49:42 **** Rebuild of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o EX_1.exe main.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+12:50:41 **** Rebuild of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o EX_2.exe main.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+12:51:41 **** Rebuild of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_3.exe main.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+12:52:32 **** Rebuild of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+12:53:39 **** Rebuild of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o EX_5.exe main.o 
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+12:54:39 **** Rebuild of configuration Debug for project EX_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_6.exe main.o 
+Info: Nothing to build for EX_6
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_6
+12:55:35 **** Rebuild of configuration Debug for project EX_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_7.exe main.o 
+Info: Nothing to build for EX_7
