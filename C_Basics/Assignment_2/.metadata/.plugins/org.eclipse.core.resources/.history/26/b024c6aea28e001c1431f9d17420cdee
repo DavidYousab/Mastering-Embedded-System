@@ -1,0 +1,14 @@
+#include "stdio.h"
+
+void main()
+{
+	char A;
+	printf("Enter an alphabet:");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&A);
+
+	A+=1;
+
+	printf("%d",A);
+
+}

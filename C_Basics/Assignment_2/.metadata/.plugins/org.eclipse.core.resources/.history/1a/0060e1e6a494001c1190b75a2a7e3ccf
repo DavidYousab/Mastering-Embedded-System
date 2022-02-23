@@ -1,0 +1,17 @@
+#include "stdio.h"
+
+void main()
+{
+	char A;
+	printf("Enter an alphabet:");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&A);
+	int c=(int)A;
+
+	if('a'<A<'z' && 'A'<A<'Z')
+
+		printf("%c is Alphabit ",A);
+
+	else
+		printf("%c is not Alphabit",A);
+}

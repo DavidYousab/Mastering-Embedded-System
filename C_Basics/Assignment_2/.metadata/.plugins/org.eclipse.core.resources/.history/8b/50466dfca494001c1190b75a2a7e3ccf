@@ -1,0 +1,7 @@
+#include "stdio.h"
+
+void main()
+{
+
+ printf("%d , %d , %d , %d",'a','z','A','Z');
+}

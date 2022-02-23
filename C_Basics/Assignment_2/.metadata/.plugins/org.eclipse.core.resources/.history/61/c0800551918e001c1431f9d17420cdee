@@ -1,0 +1,9 @@
+#include "stdio.h"
+
+void main()
+{
+	int num;
+	printf("Enter a number you want to cheak: ");
+	fflush("stdin");fflush("stdout");
+	scanf("%d",num);
+}

@@ -1,0 +1,9 @@
+#include "stdio.h"
+
+void main()
+{
+	printf("%d",'A');
+	printf("\n%d",'Z');
+	printf("\n%d",'a');
+	printf("\n%d",'z');
+}

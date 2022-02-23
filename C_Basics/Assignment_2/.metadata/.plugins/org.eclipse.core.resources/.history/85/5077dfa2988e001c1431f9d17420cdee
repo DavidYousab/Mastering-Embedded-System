@@ -1,0 +1,15 @@
+#include "stdio.h"
+
+void main()
+{
+	char A;
+	printf("Enter an alphabet:");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&A);
+	if( 65<=A<=90 && 97<=A<=122)
+		{
+			printf("%f is Positive",num1);
+		}
+
+
+}

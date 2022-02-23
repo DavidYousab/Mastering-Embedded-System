@@ -1,0 +1,11 @@
+#include "stdio.h"
+
+void main()
+{
+	printf("%c",91);
+
+
+	/*printf("\n%d",'Z');
+	printf("\n%d",'a');
+	printf("\n%d",'z');*/
+}
