@@ -1,0 +1,12 @@
+#include"stdio.h"
+
+int main(){
+	int i,len=0;
+	char str1[50],str2[50];
+
+	printf("Enter a string: ");
+	fflush(stdin); fflush(stdout);
+
+
+	return 0;
+}

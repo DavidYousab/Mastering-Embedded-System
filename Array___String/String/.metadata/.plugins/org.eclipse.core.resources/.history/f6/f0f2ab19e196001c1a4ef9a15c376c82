@@ -1,0 +1,14 @@
+#include"stdio.h"
+
+int main(){
+	int i;
+	char str[50];
+
+	printf("Enter a string:");
+	fflush(stdin); fflush(stdout);
+	scanf("%s",str);
+
+	printf ("%d",(sizeof(str)-1)/4);
+
+	return 0;
+}

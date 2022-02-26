@@ -1,0 +1,8 @@
+#include "stdio.h"
+
+int main()
+{
+	int i,n;
+	float arr1[100];
+	printf("Enter the number of data:");
+	fflush(stdin); fflush(stdout);

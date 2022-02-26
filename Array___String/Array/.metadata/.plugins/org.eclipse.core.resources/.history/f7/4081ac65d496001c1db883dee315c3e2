@@ -1,0 +1,42 @@
+#include "stdio.h"
+
+int main(){
+
+	int i, no,lo, in, arr1[20],arr2[20];
+	printf("enter the number of elements:");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&no);
+
+	for(i=0; i<no; i++){
+		scanf("%d",& arr1[i]);
+	}
+	arr1[no+1]=0;
+	for(i=0; i<no; i++){
+		printf("%d  ",arr1[i]);
+	}
+
+
+	printf("\n enter the number to be inserted:");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&in);
+
+
+	printf("\n enter the loucation of the number:");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&lo);
+
+	for(i=no; i>lo; i--)
+	{
+		arr[i+2]=arr[i];
+	}
+
+	arr[lo]=in;
+
+	for(i=0; i<no+1; i++)
+	{
+		printf("%d  ",arr2[i]);
+	}
+
+
+	return 0;
+}

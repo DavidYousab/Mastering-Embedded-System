@@ -1,0 +1,15 @@
+#include "stdio.h"
+
+int main()
+{
+	int i,j,r,c;
+	float arr[20][20];
+
+	printf("Enter the rows and colums of the matrix:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d",&r,&c);
+
+
+
+	return 0;
+}

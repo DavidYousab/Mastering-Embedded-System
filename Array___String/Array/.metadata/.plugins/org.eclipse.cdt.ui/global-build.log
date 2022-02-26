@@ -1,0 +1,78 @@
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:08:23 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:15:40 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:18:54 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:3: error: 'arr' undeclared (first use in this function)
+   arr[i+2]=arr[i];
+   ^~~
+..\main.c:30:3: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:19:32 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:5:29: warning: unused variable 'arr2' [-Wunused-variable]
+  int i, no,lo, in, arr1[20],arr2[20];
+                             ^~~~
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_4
+09:20:32 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+09:32:02 **** Rebuild of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:15: error: 'in' undeclared (first use in this function)
+   scanf("%d",&in);
+               ^~
+..\main.c:20:15: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:4:12: warning: unused variable 'num_ser' [-Wunused-variable]
+  int i, no,num_ser , arr1[20];
+            ^~~~~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+09:34:35 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_5.exe main.o 
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+09:38:04 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_5.exe main.o 
+Info: Nothing to build for EX_5
