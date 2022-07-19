@@ -1,0 +1,9 @@
+#include "stdio.h"
+
+int power(int x, int y);
+
+int main()
+{
+	int base,pow;
+	printf("Enter base number: ");
+	fflush(stdin); fflush(stdin);

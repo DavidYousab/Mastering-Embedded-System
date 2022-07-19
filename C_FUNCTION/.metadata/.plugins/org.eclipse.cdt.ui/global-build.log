@@ -1,0 +1,65 @@
+17:53:44 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:2: error: expected declaration or statement at end of input
+  scanf("%d",&pow);
+  ^~~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+17:55:13 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:7:15: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  int base,pow,res;
+               ^~~
+gcc -o EX_4.exe main.o 
+main.o: In function `main':
+D:\Working_dir\Mastering-Embedded-System\C_FUNCTION\EX_4\Debug/../main.c:14: undefined reference to `power'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+17:57:35 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+main.o: In function `main':
+D:\Working_dir\Mastering-Embedded-System\C_FUNCTION\EX_4\Debug/../main.c:14: undefined reference to `power'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+18:02:51 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'power':
+..\main.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+18:03:04 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'power':
+..\main.c:30:9: error: 'res' undeclared (first use in this function)
+  return res;
+         ^~~
+..\main.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+18:03:12 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_4.exe main.o 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_4

@@ -1,0 +1,30 @@
+#include "stdio.h"
+
+int Factorial(int x);
+
+int main()
+{
+	int res ,num;
+	printf("Enter a positive number: \n");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&num);
+
+	res=Factorial(num);
+
+	printf("Factorial of %d: is %d",num,res);
+
+	return 0;
+}
+
+int Factorial(int x)
+{
+	int res=x;
+	if(x>1)
+	{
+		res*=(x-1);
+	x-=1;
+	}
+	else
+		break;
+	return res;
+}
